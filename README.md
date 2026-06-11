@@ -27,19 +27,19 @@
 
 1a. x > 100
 
-Svar: 3st. Under 100 / 100 / Över hundra.
+Svar: Minst 2st. True = 101 och uppåt / False = 100 och nedåt.
 
 1b. y == 42
 
-Svar: 3st. Under 42 / 42 / Över 42.
+Svar: Minst 2st. True = 42 / False = Under eller över 42
 
 1c. len(text) >= 5
 
-Svar: 3st. Under 5 / 5 / Över 5. 
+Svar: Minst 2st. True = 5 och uppåt / False = 4 och nedåt. 
 
 1d. z == True
 
-Svar: 2 st. En true (z) / en false.
+Svar: Minst 2st. True = z / False != z.
 
 1e. 8 < v < 16
 
