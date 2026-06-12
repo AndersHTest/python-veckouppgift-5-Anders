@@ -6,11 +6,8 @@ def test_add():
     x = 1
     y = 2
 
-
     #Act
     actual = add(x, y)
 
-
     #Assert
-
     assert actual == expected
