@@ -17,7 +17,7 @@
 | Uppgift  | Status |
 |----------|--------|
 | 1        | 100%   |
-| 2        | 10%    |
+| 2        | 25%    |
 
 
 ### Mina svar
@@ -54,6 +54,25 @@ Svar: Minst 4. 32, 64, 128 och minst en siffra utöver det.
 Svar: 4st. 1 mindre än 5 / 1 mellan 5 - 9 / 1 mellan 10 - 14 / 1 över 15.
 
 
+----------------
+
+2
+
+1a. Hittat på testdata i test_temperatur.
+
+1b. parametern degree har 2 ekvivalensklasser. None eller grader Fahrenheit.
+
+1c. Som en amerikansk badgäst,
+vill jag kunna omvandla temperaturen i vattnet från grader Celsius till grader Fahrenheit,
+så att jag vet hur varmt det är i vattnet.
+
+2a. -
+
+2b. -
+
+2c. -
+
+3a. 
 
 
 🟡🟢🟠
