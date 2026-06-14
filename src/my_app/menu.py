@@ -2,6 +2,7 @@ from vowels import *
 from find_max_value import *
 from list import *
 from Temperatur import *
+from count_words import count_words
 
 def menu_my_app():
     active = True
@@ -11,6 +12,7 @@ def menu_my_app():
         print(f"3. Hitta största värdet")
         print(f"4. Hitta näst största värdet")
         print(f"5. Temperaturomvandling (C->F)")
+        print(f"6. Räkna ord")
         print(f"\n0 - Avsluta\n")
 
         control = input("\nSelect an option: ")
@@ -44,3 +46,7 @@ def menu_my_app():
         elif control == "5":
             x = float(input("Skriv en temperatur i grader Celsius för att konvertera till Fahrenheit: "))
             print(c_to_f(x))
+
+        elif control == "6":
+            sentence = input("Räkna antalet ord i en mening: ")
+            print(f"Antalet ord är: {count_words(sentence)}.")
