@@ -14,7 +14,6 @@ def test_empty_list():
 
 
 def test_number_list():
-    # TODO: testa med listor som har ett, två respektive fem element.
 
     # Arrange
     expected_x = 5
