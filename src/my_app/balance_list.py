@@ -19,8 +19,3 @@ def balance_list(list_1, list_2):
     #Om antalet element i listorna är mindre än två ifrån varandra så gör vi ingen balansering.
     else:
         return list_1, list_2
-
-
-r_list = [1, 2, 3, 4]
-s_list = [4, 5, 6, 7, 3, 2]
-print(balance_list(r_list, s_list))
