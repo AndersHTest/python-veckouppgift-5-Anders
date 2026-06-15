@@ -5,28 +5,28 @@
 * [Testdriven utveckling](#testdriven-utveckling)
   * [Vecka 24](#vecka-24)
     * [Status uppgifter](#status-uppgifter)
-    * [Mina svar](#mina-svar)
-      * [<ins>Läsa of förstå kod</ins>](#insläsa-of-förstå-kodins)
-      * [<ins>Öva på TDD</ins>](#insöva-på-tddins)
-      * [<ins>Söka efter användare</ins>](#inssöka-efter-användareins)
-      * [<ins>Multiplikationstabellen</ins>](#insmultiplikationstabellenins)
-      * [<ins>Balansera listor</ins>](#insbalansera-listorins)
+    * [Mina svar](#mina-svar-)
+      * [<ins>Läsa of förstå kod</ins> ✅](#insläsa-of-förstå-kodins-)
+      * [<ins>Öva på TDD</ins> ✅](#insöva-på-tddins-)
+      * [<ins>Söka efter användare</ins> 🟡](#inssöka-efter-användareins-)
+      * [<ins>Multiplikationstabellen</ins> ✅](#insmultiplikationstabellenins-)
+      * [<ins>Balansera listor</ins> ✅](#insbalansera-listorins-)
 <!-- TOC -->
 
 
 ### Status uppgifter
 
-| Uppgift                     | Status |
-|-----------------------------|-------|
-| 1 Läsa och förstå kod       | 100%  |
-| 2 Öva på TDD                | 100%  |
-| 3 Söka efter användare      | 40%   |
-| 4 Multiplikationstabellen   | 100%  |
-| 5 Balansera Listor          | 100%  |
+| Uppgift                     | Status| 🟠🟡🟢  |
+|-----------------------------|-------|----------|
+| 1 Läsa och förstå kod       | 100%  | 🟢       |
+| 2 Öva på TDD                | 100%  | 🟢       |
+| 3 Söka efter användare      | 40%   | 🟡       |
+| 4 Multiplikationstabellen   | 100%  | 🟢       |
+| 5 Balansera Listor          | 100%  | 🟢       |
 
 
-### Mina svar
-#### <ins>Läsa of förstå kod</ins>
+### Mina svar 
+#### <ins>Läsa of förstå kod</ins> ✅
 
 **Vilka ekvivalensklasser har uttrycken?**
 
@@ -60,7 +60,7 @@ Svar: 4st. 1 mindre än 5 / 1 mellan 5 - 9 / 1 mellan 10 - 14 / 1 över 15.
 
 
 ---
-#### <ins>Öva på TDD</ins>
+#### <ins>Öva på TDD</ins> ✅
 
 
 1a. <br>Hittat på testdata i test_temperatur.
@@ -88,13 +88,14 @@ AK:
 3a.
 
 Krav: <br><br>
-    Syfte: Beräkna medianen vid ojämnt antal element. Beräkna medelvärdet när det är ett jämnt antal element.
+    Syfte: Beräkna medianen vid ojämnt antal element. Beräkna medelvärdet på de två mittersta talen när det är ett jämnt antal element.
 
 
 AK: <br><br>
-    1. Om funktionen anropas med en tom lista; returnera 'None'
-    2. Om funktionen anropas med en lista med ett ojämnt antal numeriska element; returnera medianen av listan.
-    3. Om funktionen anropas med en lista med ett jämnt antal numeriska element; returnera medelvärdet på summan av talen.
+    1. Listan ska vara sorterad i stigande ordning när beräkning görs.
+    2. Om funktionen anropas med en tom lista; returnera 'None'
+    3. Om funktionen anropas med en lista med ett ojämnt antal numeriska element; returnera medianen av listan.
+    4. Om funktionen anropas med en lista med ett jämnt antal numeriska element; returnera medelvärdet på summan av talen.
 
 3b. <br><br>test_median
 
@@ -113,7 +114,7 @@ AK: <br><br> Funktionen ska returnera True om listan numbers är sorterad i stig
 
 ___
 
-#### <ins>Söka efter användare</ins>
+#### <ins>Söka efter användare</ins> 🟡
 
 Krav: <br><br>
     Låt användare söka i 'master-listan' och visa förslag baserat på innehållet i listan
@@ -126,7 +127,7 @@ AK: <br><br>
 
 ---
 
-#### <ins>Multiplikationstabellen</ins>
+#### <ins>Multiplikationstabellen</ins> ✅
 
 Krav: <br><br>
     Skapa en funktion som tar två parametrar. En parameter som talar om vilken multiplikationstabell
@@ -142,7 +143,7 @@ AK: <br><br>
 ---
 
 
-#### <ins>Balansera listor</ins>
+#### <ins>Balansera listor</ins> ✅
 
 Krav:
     Två listor behöver balanseras genom att flytta element från den längre listan till den kortare.
@@ -154,6 +155,7 @@ AK:
 
 
 ---
-🟡🟢🟠
 
-✅
+
+
+

@@ -4,11 +4,11 @@ def test_find_median():
 
     #Arrange
     expected_1 = 2
-    expected_2 = 5
+    expected_2 = 7
     expected_3 = None
 
     test_numbers_1 = [1, 2, 1000]
-    test_numbers_2 = [1, 2, 3, 4]
+    test_numbers_2 = [1, 12, 8, 6]
     test_numbers_3 = []
 
     #Act
