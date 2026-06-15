@@ -72,4 +72,4 @@ def menu_my_app():
             s_list = [4, 5, 6, 7, 3, 2]
 
             print(f"1. Vi skickar listorna [1, 2, 3, 4, 5] och [4, 5, 6, 7, 3, 2]. Förväntat resultat är; ingen åtgärd. Resultat: {balance_list(x_list, y_list)}")
-            print(f"2. Vi skickar listorna [1, 2, 3, 4] och [4, 5, 6, 7, 3, 2]. Förväntat resultat är att listorna har balanserats. Resultat: {balance_list(x_list, y_list)}")
+            print(f"2. Vi skickar listorna [1, 2, 3, 4] och [4, 5, 6, 7, 3, 2]. Förväntat resultat är att listorna har balanserats. Resultat: {balance_list(r_list, s_list)}")
