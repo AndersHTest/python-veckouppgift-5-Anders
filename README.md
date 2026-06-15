@@ -76,8 +76,8 @@ så att jag vet hur varmt det är i vattnet.
 Krav:
     Funktionen skall räkna varje serie tecken som separeras med mellanslag.
     
-AK:
-    1. Strängen "Detta är en serie tecken" == 5.
+AK:<br><br>
+    1. Strängen "Detta är en serie tecken" == 5.<br>
     2. Strängen "D3.*a /r också en seri3 t3c-3n." == 6.
 
 
@@ -92,10 +92,10 @@ Krav: <br><br>
 
 
 AK: <br><br>
-    1. Listan ska vara sorterad i stigande ordning när beräkning görs.
-    2. Om funktionen anropas med en tom lista; returnera 'None'
-    3. Om funktionen anropas med en lista med ett ojämnt antal numeriska element; returnera medianen av listan.
-    4. Om funktionen anropas med en lista med ett jämnt antal numeriska element; returnera medelvärdet på summan av talen.
+    1. Listan ska vara sorterad i stigande ordning när beräkning görs.<br>
+    2. Om funktionen anropas med en tom lista; returnera 'None'<br>
+    3. Om funktionen anropas med en lista med ett ojämnt antal numeriska element; returnera medianen av listan.<br>
+    4. Om funktionen anropas med en lista med ett jämnt antal numeriska element; returnera medelvärdet på summan av talen.<br>
 
 3b. <br><br>test_median
 
