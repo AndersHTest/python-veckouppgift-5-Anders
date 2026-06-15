@@ -1,4 +1,3 @@
-from my_app import multiplication
 from vowels import *
 from find_max_value import *
 from list import *
