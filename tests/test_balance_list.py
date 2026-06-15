@@ -37,8 +37,8 @@ def test_balance_list():
 
     #Assert
 
-    actual_1 = expected_1
-    actual_2 = expected_2
-    actual_3 = expected_3
-    actual_4 = expected_4
-    actual_5 = expected_5
+    assert actual_1 == expected_1
+    assert actual_2 == expected_2
+    assert actual_3 == expected_3
+    assert actual_4 == expected_4
+    assert actual_5 == expected_5
