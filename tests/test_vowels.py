@@ -28,10 +28,10 @@ def test_no_vowels():
     actual_7 = count_vowels(test_input_7)
 
     #Assert
-    assert count_vowels(test_input_1) == expected_1
-    assert count_vowels(test_input_2) == expected_2
-    assert count_vowels(test_input_3) == expected_3
-    assert count_vowels(test_input_4) == expected_4
-    assert count_vowels(test_input_5) == expected_5
-    assert count_vowels(test_input_6) == expected_6
-    assert count_vowels(test_input_7) == expected_7
+    assert actual_1 == expected_1
+    assert actual_2 == expected_2
+    assert actual_3 == expected_3
+    assert actual_4 == expected_4
+    assert actual_5 == expected_5
+    assert actual_6 == expected_6
+    assert actual_7 == expected_7
